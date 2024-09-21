@@ -1,0 +1,16 @@
+{
+	"name": "dlyatelki",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"@grammyjs/conversations": "^1.2.0",
+		"@grammyjs/runner": "^2.0.3",
+		"dotenv": "^16.4.5",
+		"grammy": "^1.22.4"
+	},
+	"scripts": {
+		"dev": "nodemon bot.js --ignore sessions/"
+	}
+}
